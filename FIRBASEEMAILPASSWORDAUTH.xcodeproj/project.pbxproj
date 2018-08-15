@@ -14,6 +14,10 @@
 		8F37BA271FA1C6A9009DFA35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F37BA251FA1C6A9009DFA35 /* LaunchScreen.storyboard */; };
 		8F37BA321FA1C6A9009DFA35 /* FIRBASEEMAILPASSWORDAUTHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F37BA311FA1C6A9009DFA35 /* FIRBASEEMAILPASSWORDAUTHTests.swift */; };
 		8F37BA3D1FA1C6A9009DFA35 /* FIRBASEEMAILPASSWORDAUTHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F37BA3C1FA1C6A9009DFA35 /* FIRBASEEMAILPASSWORDAUTHUITests.swift */; };
+		8F37BA4B1FA1C770009DFA35 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F37BA4A1FA1C770009DFA35 /* RegisterVC.swift */; };
+		8F37BA4D1FA1C780009DFA35 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F37BA4C1FA1C780009DFA35 /* HomePageVC.swift */; };
+		8F37BA4F1FA1C804009DFA35 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F37BA4E1FA1C804009DFA35 /* GoogleService-Info.plist */; };
+		B8D34BB5D6FBD981D124F33E /* Pods_FIRBASEEMAILPASSWORDAUTH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B715BD056C4E64CA822E5B2 /* Pods_FIRBASEEMAILPASSWORDAUTH.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FB4583B46541F0E6A3177FE /* Pods-FIRBASEEMAILPASSWORDAUTH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIRBASEEMAILPASSWORDAUTH.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIRBASEEMAILPASSWORDAUTH/Pods-FIRBASEEMAILPASSWORDAUTH.debug.xcconfig"; sourceTree = "<group>"; };
+		4B715BD056C4E64CA822E5B2 /* Pods_FIRBASEEMAILPASSWORDAUTH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIRBASEEMAILPASSWORDAUTH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F37BA191FA1C6A9009DFA35 /* FIRBASEEMAILPASSWORDAUTH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIRBASEEMAILPASSWORDAUTH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F37BA1C1FA1C6A9009DFA35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F37BA1E1FA1C6A9009DFA35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		8F37BA381FA1C6A9009DFA35 /* FIRBASEEMAILPASSWORDAUTHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIRBASEEMAILPASSWORDAUTHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F37BA3C1FA1C6A9009DFA35 /* FIRBASEEMAILPASSWORDAUTHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRBASEEMAILPASSWORDAUTHUITests.swift; sourceTree = "<group>"; };
 		8F37BA3E1FA1C6A9009DFA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F37BA4A1FA1C770009DFA35 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		8F37BA4C1FA1C780009DFA35 /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
+		8F37BA4E1FA1C804009DFA35 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A2F80611904BC93118A8B47C /* Pods-FIRBASEEMAILPASSWORDAUTH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIRBASEEMAILPASSWORDAUTH.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIRBASEEMAILPASSWORDAUTH/Pods-FIRBASEEMAILPASSWORDAUTH.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D34BB5D6FBD981D124F33E /* Pods_FIRBASEEMAILPASSWORDAUTH.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +85,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43927DD0631299AEC13B6C4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B715BD056C4E64CA822E5B2 /* Pods_FIRBASEEMAILPASSWORDAUTH.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7444269DD682654F9FCC6C53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FB4583B46541F0E6A3177FE /* Pods-FIRBASEEMAILPASSWORDAUTH.debug.xcconfig */,
+				A2F80611904BC93118A8B47C /* Pods-FIRBASEEMAILPASSWORDAUTH.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8F37BA101FA1C6A9009DFA35 = {
 			isa = PBXGroup;
 			children = (
+				8F37BA4E1FA1C804009DFA35 /* GoogleService-Info.plist */,
 				8F37BA1B1FA1C6A9009DFA35 /* FIRBASEEMAILPASSWORDAUTH */,
 				8F37BA301FA1C6A9009DFA35 /* FIRBASEEMAILPASSWORDAUTHTests */,
 				8F37BA3B1FA1C6A9009DFA35 /* FIRBASEEMAILPASSWORDAUTHUITests */,
 				8F37BA1A1FA1C6A9009DFA35 /* Products */,
+				7444269DD682654F9FCC6C53 /* Pods */,
+				43927DD0631299AEC13B6C4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +130,8 @@
 			children = (
 				8F37BA1C1FA1C6A9009DFA35 /* AppDelegate.swift */,
 				8F37BA1E1FA1C6A9009DFA35 /* ViewController.swift */,
+				8F37BA4A1FA1C770009DFA35 /* RegisterVC.swift */,
+				8F37BA4C1FA1C780009DFA35 /* HomePageVC.swift */,
 				8F37BA201FA1C6A9009DFA35 /* Main.storyboard */,
 				8F37BA231FA1C6A9009DFA35 /* Assets.xcassets */,
 				8F37BA251FA1C6A9009DFA35 /* LaunchScreen.storyboard */,
@@ -132,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F37BA411FA1C6A9009DFA35 /* Build configuration list for PBXNativeTarget "FIRBASEEMAILPASSWORDAUTH" */;
 			buildPhases = (
+				A90AA1E71EB261D8A9080A9F /* [CP] Check Pods Manifest.lock */,
 				8F37BA151FA1C6A9009DFA35 /* Sources */,
 				8F37BA161FA1C6A9009DFA35 /* Frameworks */,
 				8F37BA171FA1C6A9009DFA35 /* Resources */,
+				ADC03F1019101F327881D64D /* [CP] Embed Pods Frameworks */,
+				78DB07A4D7B32AF947AAE35E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F37BA271FA1C6A9009DFA35 /* LaunchScreen.storyboard in Resources */,
+				8F37BA4F1FA1C804009DFA35 /* GoogleService-Info.plist in Resources */,
 				8F37BA241FA1C6A9009DFA35 /* Assets.xcassets in Resources */,
 				8F37BA221FA1C6A9009DFA35 /* Main.storyboard in Resources */,
 			);
@@ -254,12 +291,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		78DB07A4D7B32AF947AAE35E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIRBASEEMAILPASSWORDAUTH/Pods-FIRBASEEMAILPASSWORDAUTH-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A90AA1E71EB261D8A9080A9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FIRBASEEMAILPASSWORDAUTH-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADC03F1019101F327881D64D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FIRBASEEMAILPASSWORDAUTH/Pods-FIRBASEEMAILPASSWORDAUTH-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIRBASEEMAILPASSWORDAUTH/Pods-FIRBASEEMAILPASSWORDAUTH-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F37BA151FA1C6A9009DFA35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F37BA4B1FA1C770009DFA35 /* RegisterVC.swift in Sources */,
 				8F37BA1F1FA1C6A9009DFA35 /* ViewController.swift in Sources */,
+				8F37BA4D1FA1C780009DFA35 /* HomePageVC.swift in Sources */,
 				8F37BA1D1FA1C6A9009DFA35 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,9 +521,11 @@
 		};
 		8F37BA421FA1C6A9009DFA35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB4583B46541F0E6A3177FE /* Pods-FIRBASEEMAILPASSWORDAUTH.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WYMKKWGVGB;
 				INFOPLIST_FILE = FIRBASEEMAILPASSWORDAUTH/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.Webcubator.FIRBASEEMAILPASSWORDAUTH;
@@ -438,9 +537,11 @@
 		};
 		8F37BA431FA1C6A9009DFA35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F80611904BC93118A8B47C /* Pods-FIRBASEEMAILPASSWORDAUTH.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WYMKKWGVGB;
 				INFOPLIST_FILE = FIRBASEEMAILPASSWORDAUTH/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.Webcubator.FIRBASEEMAILPASSWORDAUTH;
